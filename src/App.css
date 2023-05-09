@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.sidebarContent{
+  /* background-color: #e0e0e0; */
+  height: 85vh;
+  overflow: auto;
+  border-right: 1px solid #c1c1c1;
+  box-shadow: offset-x offset-y blur spread color position;
+  padding: 0.5rem;
+}
+.mainBarContent{
+}
+.text-center{
+  text-align: center;
+  margin: 0;
+}
+.brand-logo{
+  margin-left: 1rem;
+}
+.text-bold{
+  font-weight: bold;
+}

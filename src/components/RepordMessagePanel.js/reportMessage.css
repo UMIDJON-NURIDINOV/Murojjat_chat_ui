@@ -1,0 +1,56 @@
+.reportMessage{
+  text-align: center;
+  margin:0.5rem;
+  height: 85vh;
+  padding: 0.5rem 1rem;
+
+}
+
+.message-past{
+  width: 100%;
+  height: 60vh;
+  border: 1px solid #c1c1c1;
+  overflow: auto;
+  padding: 1rem;
+  border-radius: 1.5rem;
+}
+.form-input{
+  width: 100%;
+  height: 10vh;
+}
+.d-flex{
+  display: flex;
+  align-items: center;
+}
+
+.senderBtn button{
+  border-radius: 0.7rem;
+}
+
+/* ------------------ */
+
+.userSmsBox{
+  width: 400px;
+  height: auto;
+  background-color: #d8d8d8;
+  border-radius: 10px;
+  margin: 10px ;
+
+}
+.operatorSmsBox{
+  width: 400px;
+  height: auto;
+  background-color: #88b0e6;
+  border-radius: 10px;
+  margin: 10px ;
+}
+.userSmsBox p{
+  font-size: 18px;
+  padding: 10px;
+  text-align: start;
+}
+.operatorSmsBox p{
+  font-size: 18px;
+  padding: 10px;
+  text-align: start;
+}

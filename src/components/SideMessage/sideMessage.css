@@ -1,0 +1,39 @@
+.sideTopText{
+  font-size: 1.3rem;
+}
+.user{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-color: #b2dfdb;
+  padding: 0.5rem;
+  border-radius: 1.5rem;
+  margin-top: 0.6rem;
+  cursor: pointer;
+}
+.userImg{
+  width: 3rem;
+  height: 3rem;
+  border-radius: 100%;
+}
+.userName{
+  margin-left: 0.7rem;
+}
+.userTime{
+  position: absolute;
+  right: 1rem;
+  bottom: .5rem;
+  font-size: 11px;
+}
+.hover1{
+  transition: .5s;
+}
+.hover1:hover{
+  background-color: rgb(41, 41, 243);
+  color: white;
+}
+.hover2{
+  background-color: rgb(41, 41, 243);
+  color: white;
+}
