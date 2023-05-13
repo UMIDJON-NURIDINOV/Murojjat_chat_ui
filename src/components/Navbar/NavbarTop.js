@@ -5,13 +5,14 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import { useNavigate } from 'react-router-dom';
 
 
 export default function NavbarTop() {
-
+  const navigate = useNavigate()
   const hendliLogOut = ()=>{
     localStorage.clear()
-    window.location.reload()
+    navigate('/')
   }
 
   return (

@@ -9,8 +9,8 @@ import NavScrollExample from './components/Navbar/Nda';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
-  const [loginlocal,setLoginlocal] = useState(null)
-  const [passwordlocal,setpasswordlocal] = useState(null)
+  // const [loginlocal, setLoginlocal] = useState(null)
+  // const [passwordlocal, setpasswordlocal] = useState(null)
 
 
   // const localdata = {
@@ -18,24 +18,20 @@ function App() {
   //   passwordlocal: localStorage.getItem('passwordData'),
   // }
 
-  useEffect(()=>{
-    setLoginlocal(localStorage.getItem('loginData'))
-    setpasswordlocal(localStorage.getItem('passwordData'))
-  },loginlocal)
-  // console.log(localdata.loginlocal, localdata.passwordlocal);
+
   return (
     <DataContextProvider>
-      {false ? <Login /> : (<div className="App">
-      <NavScrollExample/>
-      <div className="row d-flex">
-      <div class="col s3 sidebarContent">
-        <SideMessage />
+      <div className="App">
+        <NavScrollExample />
+        <div className="row d-flex">
+          <div class="col s3 sidebarContent">
+            <SideMessage />
+          </div>
+          <div className="col s9 mainBarContent">
+            <ReportMessage />
+          </div>
+        </div>
       </div>
-      <div className="col s9 mainBarContent">
-        <ReportMessage />
-      </div>
-    </div>
-    </div>)}
     </DataContextProvider>
   );
 }
